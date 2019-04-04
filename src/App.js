@@ -1,25 +1,26 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Component} from 'react';
+// import './App.css';
+import Header from './components/Header';
+import Page1 from './components/Page1';
+import Page2 from './components/Page2';
+import Footer from './components/Footer';
+import Carousel from './components/Carousel';
+import Faq from './components/Faq';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <link rel="stylesheet" type="text/css" charSet="UTF-8"
+              href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"/>
+        <link rel="stylesheet" type="text/css"
+              href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"/>
+        <Header/>
+        <Page1/>
+        <Page2/>
+        <Carousel/>
+        <Faq/>
+        <Footer/>
       </div>
     );
   }

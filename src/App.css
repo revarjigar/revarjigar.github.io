@@ -1,15 +1,38 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Geomanist';
+  src: url('/static/fonts/geomanist-regular-webfont.eot');
+  src: url('/static/fonts/geomanist-regular-webfont.woff') format('woff');
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Geomanist-Bold';
+  src: url('/static/fonts/geomanist-bold-webfont.eot');
+  src: url('/static/fonts/geomanist-bold-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Geomanist-Light';
+  src: url('/static/fonts/geomanist-light-webfont.eot');
+  src: url('/static/fonts/geomanist-light-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Geomanist-Medium';
+  src: url('/static/fonts/geomanist-medium-webfont.eot');
+  src: url('/static/fonts/geomanist-medium-webfont.woff') format('woff');
+}
+
+@media (max-width:767px) {
+  .br-xs{ display:none; }
+}
+
+
+.App {
+  text-align: center;
+  font-family: Geomanist;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -29,5 +52,123 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.font-light {
+  font-family: Geomanist-Light;
+}
+
+.font-medium {
+  font-family: Geomanist-Medium;
+}
+
+.font-bold {
+  font-family: Geomanist-Bold;
+}
+
+#p_wrap {
+  white-space: pre-line;
+  margin: 0;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-align-left {
+  text-align: left;
+}
+
+.padding-none {
+  padding: 0;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.download-cta {
+  z-index: 99;
+}
+
+.apple {
+  background: url("/static/assets/appStore@3x.png");
+  width: 160px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 8px auto;
+  cursor: pointer;
+}
+
+.apple:hover {
+  background: url("/static/assets/appStoreHover@3x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.google {
+  background: url("/static/assets/googlePlay@3x.png");
+  width: 160px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 8px auto;
+  cursor: pointer;
+}
+
+.google:hover {
+  background: url("/static/assets/googlePlayHover@3x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.download-cta {
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 400px;
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+}
+
+.hide {
+  display: none !important;
+}
+
+.no-height {
+  overflow: hidden;
+  height: 0 !important;
+  margin: 0 !important;
+  -webkit-transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .apple {
+    padding: 1px;
+  }
+
+  .google {
+    padding: 1px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .download-cta {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 }

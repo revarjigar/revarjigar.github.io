@@ -1,0 +1,183 @@
+.footer-container {
+    background: #FA4D42;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer {
+    color: #ffffff;
+    padding: 50px 0 0 0;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+
+.footer ul{ margin:20px auto 0; padding:0; list-style:none; }
+.footer li{ position:relative; display:inline-block; margin:0 6px; }
+.footer li:after{ content:''; display:block; position:absolute; top:50%; right:-8px; transform:translate(-50%, 0); width:2px; height:2px; background:#fff; border-radius:1000px; }
+.footer li:last-child:after{ display:none; }
+.footer li a{ color:#fff; text-decoration:none; border:0; }
+
+.phone-left {
+    background: url("../static/assets/bitmap@3x.png") center;
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    transform: rotate(330deg);
+    width: 30%;
+    min-height: auto;
+    min-width: 151px;
+    max-width: 275px;
+    min-height: auto;
+    position: absolute;
+    margin-left: -2%;
+    bottom: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170%;
+}
+
+.phone-right {
+    background: url("../static/assets/bitmap@3x.png") center;
+    -webkit-transform: rotate(330deg);
+    -moz-transform: rotate(330deg);
+    -o-transform: rotate(330deg);
+    -ms-transform: rotate(330deg);
+    transform: rotate(330deg);
+    width: 30%;
+    min-height: auto;
+    min-width: 151px;
+    max-width: 275px;
+    right: -2%;
+    position: absolute;
+    margin-right: -5%;
+    top: 20%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 170%;
+}
+
+.footer-header {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    margin: 0;
+    z-index: 100;
+    position: relative;
+}
+
+.footer-sub-header {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    z-index: 100;
+    position: relative;
+}
+
+.download-cta-footer {
+    padding-bottom: 30px;
+}
+
+.footer-contact {
+    padding-bottom: 65px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.footer-contact2 {
+    display: inline;
+}
+
+.footer-contact2 {
+    color: white;
+    margin: auto;
+}
+
+.footer-contact a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    display: inline;
+}
+
+.footer-contact p {
+    margin: 0;
+}
+
+.udl {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .phone-left {
+        left: -17%;
+        height: 100%;
+    }
+
+    .phone-right {
+        right: -11%;
+        height: 100%;
+        top: 55%;
+    }
+
+    .footer-contact2 {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-header {
+        font-size: 30px;
+        width: 217px;
+        padding: 0;
+        text-align: center;
+        margin: 0 auto;
+        line-height: unset;
+        z-index: 100;
+        position: relative;
+    }
+
+    .footer-sub-header {
+        font-size: 14px;
+        width: 180px;
+        margin: 0 auto 30px auto;
+        z-index: 100;
+        position: relative;
+    }
+
+    .phone-left {
+        bottom: 20%;
+        left: -26%;
+    }
+
+    .phone-right {
+        top: 15%;
+        right: -30%;
+    }
+
+    .download-cta-footer {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 479px) {
+    .phone-left {
+        left: -17%;
+    }
+
+    .phone-right {
+        right: -21%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .phone-left {
+        left: -30%;
+        height: 100%;
+    }
+
+    .phone-right {
+        right: -110px;
+    }
+}
