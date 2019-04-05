@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3542ac-01a4-44c1-9136-54338640998c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/static/assets/30.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/CS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/VMLY&amp;R.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/agena.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/epic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/assets/vml.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page2.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +20,8 @@
       <file leaf-file-name="Page2.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Page2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+            <state relative-caret-position="318">
+              <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="93" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -48,16 +38,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page2.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/Page2.css">
+      <file leaf-file-name="Footer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Header.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Page1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Page1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Header.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Header.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="333">
@@ -73,7 +78,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hamburger-logo</find>
       <find>float-left key-feature-</find>
       <find>.page-2-header</find>
       <find>key-feature-list</find>
@@ -103,6 +107,7 @@
       <find>text-ali</find>
       <find>.key-feature-list</find>
       <find>key-feature-1</find>
+      <find>linked</find>
     </findStrings>
     <replaceStrings>
       <replace>../static/</replace>
@@ -121,7 +126,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Footer.js" />
         <option value="$PROJECT_DIR$/src/components/Faq.js" />
         <option value="$PROJECT_DIR$/src/components/Carousel.js" />
         <option value="$PROJECT_DIR$/src/components/Faq.css" />
@@ -134,8 +138,9 @@
         <option value="$PROJECT_DIR$/src/components/Page1.css" />
         <option value="$PROJECT_DIR$/src/components/Page2.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
-        <option value="$PROJECT_DIR$/src/components/Page2.css" />
         <option value="$PROJECT_DIR$/src/components/Header.js" />
+        <option value="$PROJECT_DIR$/src/components/Page2.css" />
+        <option value="$PROJECT_DIR$/src/components/Footer.js" />
       </list>
     </option>
   </component>
@@ -251,7 +256,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14911000" />
+    <option name="totallyTimeSpent" value="15169000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1389" height="877" extended-state="6" />
@@ -387,16 +392,6 @@
     <entry file="file://$PROJECT_DIR$/static/assets/ac@3x.png" />
     <entry file="file://$PROJECT_DIR$/static/logo@3x.png" />
     <entry file="file://$PROJECT_DIR$/static/assets/hambugerWhite@3x.png" />
-    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Faq.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -514,16 +509,6 @@
     <entry file="file://$PROJECT_DIR$/src/static/assets/dev.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Page1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -548,10 +533,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Page2.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -562,22 +557,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Page2.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Page1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="103" column="35" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+        <state relative-caret-position="345">
+          <caret line="23" column="64" selection-start-line="23" selection-start-column="64" selection-end-line="23" selection-end-column="64" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Header.js">
+    <entry file="file://$PROJECT_DIR$/src/components/Page2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+        <state relative-caret-position="318">
+          <caret line="115" column="20" lean-forward="true" selection-start-line="115" selection-start-column="20" selection-end-line="115" selection-end-column="93" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="67" lean-forward="true" selection-start-line="21" selection-start-column="67" selection-end-line="21" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
