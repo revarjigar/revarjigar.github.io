@@ -3,8 +3,23 @@
 }
 
 .faqs {
-    max-width: 985px;
+    max-width: 675px;
     margin: 0 auto;
+}
+
+.mu {
+    display: block;
+    width: 120px;
+    background-image: url("../static/assets/University-of-Mumbai.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.ub {
+    display: block;
+    width: 120px;
+    background-image: url("../static/assets/ub.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .faqs-header {

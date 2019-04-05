@@ -25,13 +25,13 @@ class Page2 extends Component {
   render() {
     return (
       <div className="page-2">
-        <div>
+        <div style={{width: '80%'}}>
           <h1 className="font-medium page-2-header">WORK EXPERIENCE</h1>
           <ul className="key-feature-list">
             <li className="key-feature-block">
               <div className="vml2 poo" alt="merchants"/>
               <div>
-                <h2 className="font-bold page-2-sub-header">VMLY&R - India</h2>
+                <h2 className="font-bold page-2-sub-header">VMLY&R Mumbai, India</h2>
                 <ul>
                   <li className="page-2-sub-text">
                     Role – Sr. Frontend Developer

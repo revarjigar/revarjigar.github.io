@@ -97,7 +97,7 @@ ul {
 
 .key-feature-block {
     display: flex;
-    justify-content: start;
+    justify-content: space-evenly;
     padding: 10px 0;
 }
 
