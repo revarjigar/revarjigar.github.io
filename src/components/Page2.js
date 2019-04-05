@@ -1,10 +1,8 @@
 import React, {Component} from 'react';
 import './Page2.css';
 // import canvid from 'canvid';
-
 // var landingVideo = '../static/assets/Landing-Video.mp4';
 // var landingVideoJpg = '..../static/assets/download.jpg';
-
 class Page2 extends Component {
   componentDidMount() {
     // let asset = {landingVideoJpg};
@@ -28,54 +26,99 @@ class Page2 extends Component {
     return (
       <div className="page-2">
         <div>
-          <h1 className="font-medium page-2-header">TEST TEST TEST</h1>
+          <h1 className="font-medium page-2-header">WORK EXPERIENCE</h1>
           <ul className="key-feature-list">
             <li className="key-feature-block">
-              <div className="float-left key-feature-1 poo" alt="merchants"/>
-              <div className="float-right">
-                <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
-                <ul className="padding-none">
+              <div className="vml2 poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">VMLY&R - India</h2>
+                <ul>
                   <li className="page-2-sub-text">
-                    TEST TEST TEST
+                    Role – Sr. Frontend Developer
                   </li>
+                  <li className="page-2-sub-text">Samples <a href="https://www.vmlyr.com" target="_blank">VMLY&R.COM</a> and <a href="https://www.ford.com" target="_blank">FORD.COM</a></li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
                 </ul>
               </div>
             </li>
             <li className="key-feature-block">
-              <div className="float-left key-feature-1 poo" alt="merchants"/>
-              <div className="float-right">
-                <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
-                <ul className="padding-none">
+              <div className="vml1 poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">VMLY&R Kansas City, USA</h2>
+                <ul>
                   <li className="page-2-sub-text">
-                    TEST TEST TEST<br className="br-xs" />
-                    TEST TEST TEST
+                    Role – Sr. Frontend Developer
                   </li>
+                  <li className="page-2-sub-text">Samples <a href="https://www.vmlyr.com" target="_blank">VMLY&R.COM</a> and <a href="https://www.sprint.com" target="_blank">SPRINT.COM</a></li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
                 </ul>
               </div>
             </li>
             <li className="key-feature-block">
-              <div className="float-left key-feature-1 poo" alt="merchants"/>
-              <div className="float-right">
-                <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
-                <ul className="padding-none">
+              <div className="agena poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">Agena Biosciences San Diego, USA</h2>
+                <ul>
                   <li className="page-2-sub-text">
-                    TEST TEST TEST<br className="br-xs" />
-                    TEST TEST TEST
+                    Role – Frontend Developer
                   </li>
+                  <li className="page-2-sub-text">No Samples, a private project</li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
+                </ul>
+              </div>
+            </li>
+            <li className="key-feature-block">
+              <div className="epic poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">Epic! Redwood City, USA</h2>
+                <ul>
+                  <li className="page-2-sub-text">
+                    Role – Software Developer
+                  </li>
+                  <li className="page-2-sub-text">Samples <a href="https://www.getepic.com"
+                                                             target="_blank">GETEPIC.COM</a></li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
+                </ul>
+              </div>
+            </li>
+            <li className="key-feature-block">
+              <div className="cs poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">CrowdStar - Burlingame, USA</h2>
+                <ul>
+                  <li className="page-2-sub-text">
+                    Role – Software Developer
+                  </li>
+                  <li className="page-2-sub-text">Samples <a href="https://en.wikipedia.org/wiki/CrowdStar"
+                                                             target="_blank">CROWDSTAR.COM</a></li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
+                </ul>
+              </div>
+            </li>
+            <li className="key-feature-block">
+              <div className="hands poo" alt="merchants"/>
+              <div>
+                <h2 className="font-bold page-2-sub-header">30hands Learning - Boston, USA</h2>
+                <ul>
+                  <li className="page-2-sub-text">
+                    Role – Web Developer
+                  </li>
+                  <li className="page-2-sub-text">Samples <a href="http://www.30hands.net/"
+                                                             target="_blank">30HANDS.NET</a>,
+                    <a href="http://www.30hands.com/" target="_blank">30HANDS.COM</a>,
+                  </li>
+                  <li className="page-2-sub-text">Details of this work can be found on my resume at <a
+                    href="https://www.linkedin.com/in/jigar-revar-993a28126/" target="_blank">LinkedIn</a></li>
                 </ul>
               </div>
             </li>
           </ul>
         </div>
-        {/*<div className="video-block">*/}
-          {/*<div className="video-frame"></div>*/}
-          {/*<div className="video">*/}
-            {/*<video controls={false} autoPlay={true} muted={true} loop={true} playsInline={true}>*/}
-              {/*/!*<source src={landingVideo} type="video/mp4"/>*!/*/}
-              {/*<div className="alternate-video"></div>*/}
-            {/*</video>*/}
-          {/*</div>*/}
-        {/*</div>*/}
       </div>
     );
   }

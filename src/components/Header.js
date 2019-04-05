@@ -72,7 +72,7 @@ class Header extends Component {
           <div className="header-logo" alt="header-logo"/>
           <div className="float-right header-nav">
             <a onClick={this.scrollTo.bind(this, '.page-1', 0)} className="font-medium">Top</a>
-            <a onClick={this.scrollTo.bind(this, '.page-2', 100)} className="font-medium">TEST TEST TEST</a>
+            <a onClick={this.scrollTo.bind(this, '.page-2', 0)} className="font-medium">Work Experience</a>
             <a onClick={this.scrollTo.bind(this, '.carousel-parent', 0)} className="font-medium">TEST TEST TEST</a>
             <a onClick={this.scrollTo.bind(this, '.faqs-container', 0)} className="font-medium">TEST TEST TEST</a>
             <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Get TEST TEST TEST!</a>
@@ -83,7 +83,7 @@ class Header extends Component {
         </div>
         <div className="hamburger-container no-height">
           <a onClick={this.scrollTo.bind(this, '.page-1', 0)} className="font-medium">Top</a>
-          <a onClick={this.scrollTo.bind(this, '.page-2', 100)} className="font-medium">TEST TEST TEST</a>
+          <a onClick={this.scrollTo.bind(this, '.page-2', 0)} className="font-medium">Work Experience</a>
           <a onClick={this.scrollTo.bind(this, '.carousel-parent', 0)} className="font-medium">TEST TEST TEST</a>
           <a onClick={this.scrollTo.bind(this, '.faqs-container', 0)} className="font-medium">TEST TEST TEST</a>
           <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Get TEST TEST TEST!</a>

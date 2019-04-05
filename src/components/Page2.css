@@ -5,6 +5,7 @@
     margin: 0 auto;
     justify-content: space-evenly;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .page-2-header {
@@ -14,14 +15,18 @@
     padding: 50px 0 30px 0;
     margin: 0;
 }
-
+.page-2 a{
+    color: #FA4D42;;
+}
 .page-2-sub-header {
-    margin:16px 0 0;
-    font-size:16px;
+    text-align: left;
+    margin: 10px 35px;
+    font-size: 16px;
 }
 
 .page-2-sub-text {
-    width: 405px;
+    /*width: 405px;*/
+    text-align: left;
     color: rgb(79, 90, 96);
 }
 
@@ -41,11 +46,50 @@ ul {
     display: contents;
 }
 
-.key-feature-1 {
+.vml2 {
     display: block;
     width: 129px;
-    height: 132px;
-    background-image: url("../static/assets/test.png");
+    background-image: url("../static/assets/VMLY&R.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.vml1 {
+    display: block;
+    width: 129px;
+    background-image: url("../static/assets/vml.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.agena {
+    display: block;
+    width: 129px;
+    background-image: url("../static/assets/agena.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.epic {
+    display: block;
+    width: 129px;
+    background-image: url("../static/assets/epic.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cs {
+    display: block;
+    width: 129px;
+    background-image: url("../static/assets/CS.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hands {
+    display: block;
+    width: 129px;
+    background-image: url("../static/assets/30.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -120,12 +164,9 @@ video {
         margin-bottom: 50px;
     }
 
-    /*.key-feature-1 {*/
-        /*float: unset;*/
-        /*width: 108px;*/
-        /*height: unset;*/
-        /*padding: 0;*/
-    /*}*/
+    .key-feature-block .poo {
+        margin: 0 auto;
+    }
 
     .key-feature-block img {
         float: unset;
@@ -142,7 +183,7 @@ video {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin: 0 53px;
+        margin: 0 10px;
         padding: 0;
     }
 
@@ -157,6 +198,31 @@ video {
     .video-block {
         margin: 0 auto;
     }
+
+    .vml2 {
+        height: 132px;
+    }
+
+    .vml1 {
+        height: 132px;
+    }
+
+    .agena {
+        height: 132px;
+    }
+
+    .epic {
+        height: 132px;
+    }
+
+    .cs {
+        height: 132px;
+    }
+
+    .hands {
+        height: 132px;
+    }
+
 }
 
 @media screen and (max-width: 480px) {

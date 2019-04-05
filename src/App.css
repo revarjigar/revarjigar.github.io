@@ -96,38 +96,6 @@
   z-index: 99;
 }
 
-.apple {
-  background: url("/static/assets/appStore@3x.png");
-  width: 160px;
-  height: 50px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 8px auto;
-  cursor: pointer;
-}
-
-.apple:hover {
-  background: url("/static/assets/appStoreHover@3x.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.google {
-  background: url("/static/assets/googlePlay@3x.png");
-  width: 160px;
-  height: 50px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin: 8px auto;
-  cursor: pointer;
-}
-
-.google:hover {
-  background: url("/static/assets/googlePlayHover@3x.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 .download-cta {
   display: flex;
   justify-content: space-evenly;

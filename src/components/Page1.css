@@ -21,7 +21,6 @@
     width: 770px;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 48px;
 }
 
 .deco-left {
@@ -82,7 +81,7 @@
 .end-sub-header {
     font-size: 18px;
     line-height: 23px;
-    margin: 0;
+    margin: 10px;
     display: inline-block;
     align-items: center;
     margin-bottom: 30px;
@@ -107,7 +106,6 @@
     .end-sub-header {
         font-size: 14px;
         width: 308px;
-        margin-bottom: 100px;
     }
 
     .page-1-image {
@@ -119,5 +117,8 @@
         width: 320px;
         line-height: normal;
         margin-bottom: 12px;
+    }
+    .page-1-image-container {
+        height: 370px;
     }
 }
