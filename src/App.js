@@ -18,7 +18,7 @@ class App extends Component {
         <Header/>
         <Page1/>
         <Page2/>
-        <Carousel/>
+        {/*<Carousel/>*/}
         <Faq/>
         <Footer/>
       </div>

@@ -20,7 +20,7 @@
 .footer li a{ color:#fff; text-decoration:none; border:0; }
 
 .phone-left {
-    background: url("../static/assets/test.png") center;
+    background: url("../static/assets/Web-design.png") center;
     -webkit-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
     -o-transform: rotate(330deg);
@@ -29,7 +29,7 @@
     width: 30%;
     min-height: auto;
     min-width: 151px;
-    max-width: 275px;
+    max-width: 415px;
     min-height: auto;
     position: absolute;
     margin-left: -2%;
@@ -40,7 +40,7 @@
 }
 
 .phone-right {
-    background: url("../static/assets/test.png") center;
+    background: url("../static/assets/Web-design.png") center;
     -webkit-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
     -o-transform: rotate(330deg);
@@ -49,7 +49,7 @@
     width: 30%;
     min-height: auto;
     min-width: 151px;
-    max-width: 275px;
+    max-width: 425px;
     right: -2%;
     position: absolute;
     margin-right: -5%;
@@ -57,6 +57,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 170%;
+    z-index: -1;
 }
 
 .footer-header {
@@ -113,12 +114,13 @@
     .phone-left {
         left: -17%;
         height: 100%;
+        width: 40%;
     }
 
     .phone-right {
-        right: -11%;
         height: 100%;
         top: 55%;
+        width: 40%;
     }
 
     .footer-contact2 {
@@ -149,6 +151,7 @@
     .phone-left {
         bottom: 20%;
         left: -26%;
+        width: 50%;
     }
 
     .phone-right {
@@ -168,6 +171,7 @@
 
     .phone-right {
         right: -21%;
+        width: 50%;
     }
 }
 

@@ -75,7 +75,9 @@ class MerchantCarousel extends Component {
     };
     return (
       <div className="carousel-parent">
-        <h1 className="font-medium carousel-header">Our TEST TEST TEST</h1>
+        <h1 className="font-medium carousel-header">
+          <a href="">Download my resume</a>
+        </h1>
 
         {/*<Slider {...settings} className="market-carousel">*/}
           {/*<div className="carousel-item">*/}
