@@ -75,7 +75,7 @@ class Header extends Component {
             <a onClick={this.scrollTo.bind(this, '.page-2', 0)} className="font-medium">Work Experience</a>
             <a onClick={this.scrollTo.bind(this, '.carousel-parent', 0)} className="font-medium">TEST TEST TEST</a>
             <a onClick={this.scrollTo.bind(this, '.faqs-container', 0)} className="font-medium">TEST TEST TEST</a>
-            <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Get TEST TEST TEST!</a>
+            <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Contact</a>
           </div>
           <div className="hamburger" onClick={this.hamburgerToggle.bind(this)}>
             <div className="hamburger-image hamburger-logo" alt=""/>
@@ -86,7 +86,7 @@ class Header extends Component {
           <a onClick={this.scrollTo.bind(this, '.page-2', 0)} className="font-medium">Work Experience</a>
           <a onClick={this.scrollTo.bind(this, '.carousel-parent', 0)} className="font-medium">TEST TEST TEST</a>
           <a onClick={this.scrollTo.bind(this, '.faqs-container', 0)} className="font-medium">TEST TEST TEST</a>
-          <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Get TEST TEST TEST!</a>
+          <a onClick={this.scrollTo.bind(this, '.footer', 0)} className="font-medium">Contact</a>
         </div>
       </div>
     );
