@@ -16,9 +16,9 @@
     padding: 0 0 180px 0;
     position: relative;
     z-index: 99;
-    background: url("../static/assets/test.png");
+    background: url("../static/assets/dev.png");
     height: 558px;
-    width: 320px;
+    width: 770px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 48px;
@@ -83,10 +83,9 @@
     font-size: 18px;
     line-height: 23px;
     margin: 0;
-    max-width: 516px;
     display: inline-block;
     align-items: center;
-    margin-bottom: 180px;
+    margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
