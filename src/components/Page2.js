@@ -29,10 +29,10 @@ class Page2 extends Component {
       <div className="page-2">
         <div>
           <h1 className="font-medium page-2-header">TEST TEST TEST</h1>
-          <ul className="key-feature-list padding-none">
+          <ul className="key-feature-list">
             <li className="key-feature-block">
-              <img src="../static/assets/merchants@3x.png" className="float-left key-feature-1" alt="merchants"/>
-              <div className="float-right text-align-left">
+              <div className="float-left key-feature-1 poo" alt="merchants"/>
+              <div className="float-right">
                 <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
                 <ul className="padding-none">
                   <li className="page-2-sub-text">
@@ -42,8 +42,8 @@ class Page2 extends Component {
               </div>
             </li>
             <li className="key-feature-block">
-              <img src="../static/assets/compare@3x.png" className="float-left key-feature-1" alt="compare"/>
-              <div className="float-right text-align-left">
+              <div className="float-left key-feature-1 poo" alt="merchants"/>
+              <div className="float-right">
                 <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
                 <ul className="padding-none">
                   <li className="page-2-sub-text">
@@ -54,8 +54,8 @@ class Page2 extends Component {
               </div>
             </li>
             <li className="key-feature-block">
-              <img src="../static/assets/requests@3x.png" className="float-left key-feature-1" alt="requests"/>
-              <div className="float-right text-align-left">
+              <div className="float-left key-feature-1 poo" alt="merchants"/>
+              <div className="float-right">
                 <h2 className="font-bold page-2-sub-header">TEST TEST TEST</h2>
                 <ul className="padding-none">
                   <li className="page-2-sub-text">
@@ -67,15 +67,15 @@ class Page2 extends Component {
             </li>
           </ul>
         </div>
-        <div className="video-block">
-          <div className="video-frame"></div>
-          <div className="video">
-            <video controls={false} autoPlay={true} muted={true} loop={true} playsInline={true}>
-              {/*<source src={landingVideo} type="video/mp4"/>*/}
-              <div className="alternate-video"></div>
-            </video>
-          </div>
-        </div>
+        {/*<div className="video-block">*/}
+          {/*<div className="video-frame"></div>*/}
+          {/*<div className="video">*/}
+            {/*<video controls={false} autoPlay={true} muted={true} loop={true} playsInline={true}>*/}
+              {/*/!*<source src={landingVideo} type="video/mp4"/>*!/*/}
+              {/*<div className="alternate-video"></div>*/}
+            {/*</video>*/}
+          {/*</div>*/}
+        {/*</div>*/}
       </div>
     );
   }

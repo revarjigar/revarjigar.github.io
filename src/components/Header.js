@@ -69,7 +69,7 @@ class Header extends Component {
     return (
       <div>
         <div className="navbar" id="header">
-          <img src="../static/assets/checkLogo@3x.png" className="header-logo" alt="header-logo"/>
+          <div className="header-logo" alt="header-logo"/>
           <div className="float-right header-nav">
             <a onClick={this.scrollTo.bind(this, '.page-1', 0)} className="font-medium">Home</a>
             <a onClick={this.scrollTo.bind(this, '.page-2', 100)} className="font-medium">TEST TEST TEST</a>

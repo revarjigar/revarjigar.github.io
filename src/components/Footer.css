@@ -20,7 +20,7 @@
 .footer li a{ color:#fff; text-decoration:none; border:0; }
 
 .phone-left {
-    background: url("../static/assets/bitmap@3x.png") center;
+    background: url("../static/assets/test.png") center;
     -webkit-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
     -o-transform: rotate(330deg);
@@ -40,7 +40,7 @@
 }
 
 .phone-right {
-    background: url("../static/assets/bitmap@3x.png") center;
+    background: url("../static/assets/test.png") center;
     -webkit-transform: rotate(330deg);
     -moz-transform: rotate(330deg);
     -o-transform: rotate(330deg);
