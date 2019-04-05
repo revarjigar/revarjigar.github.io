@@ -1,8 +1,8 @@
 {
   "name": "my-web",
   "version": "0.1.0",
-  "homepage": "https://revarjigar.github.io/",
   "private": true,
+  "homepage": "https://revarjigar.github.io/",
   "dependencies": {
     "jquery": "^3.3.1",
     "react": "^16.8.6",
@@ -11,11 +11,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
