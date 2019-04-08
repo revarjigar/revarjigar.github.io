@@ -26,7 +26,7 @@ class Test extends Component {
     return (
       <div className="page-2 faqs-container test">
         <div style={{width: '80%'}}>
-          <h1 className="font-medium page-2-header">Education</h1>
+          <h1 className="font-medium page-2-header">EDUCATION</h1>
           <ul className="key-feature-list">
             <li className="key-feature-block">
               <div className="ub poo" alt="merchants"/>
