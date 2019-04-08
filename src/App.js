@@ -3,6 +3,7 @@ import React, {Component} from 'react';
 import Header from './components/Header';
 import Page1 from './components/Page1';
 import Page2 from './components/Page2';
+import Test from './components/Test';
 import Footer from './components/Footer';
 import Carousel from './components/Carousel';
 import Faq from './components/Faq';
@@ -18,8 +19,9 @@ class App extends Component {
         <Header/>
         <Page1/>
         <Page2/>
+        <Test/>
         {/*<Carousel/>*/}
-        <Faq/>
+        {/*<Faq/>*/}
         <Footer/>
       </div>
     );
