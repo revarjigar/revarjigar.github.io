@@ -1,25 +1,5 @@
 @font-face {
-  font-family: 'Geomanist';
-  src: url('/static/fonts/geomanist-regular-webfont.eot');
-  src: url('/static/fonts/geomanist-regular-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Geomanist-Bold';
-  src: url('/static/fonts/geomanist-bold-webfont.eot');
-  src: url('/static/fonts/geomanist-bold-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Geomanist-Light';
-  src: url('/static/fonts/geomanist-light-webfont.eot');
-  src: url('/static/fonts/geomanist-light-webfont.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Geomanist-Medium';
-  src: url('/static/fonts/geomanist-medium-webfont.eot');
-  src: url('/static/fonts/geomanist-medium-webfont.woff') format('woff');
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (max-width:767px) {
@@ -29,7 +9,7 @@
 
 .App {
   text-align: center;
-  font-family: Geomanist;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-header {
@@ -56,15 +36,15 @@
 }
 
 .font-light {
-  font-family: Geomanist-Light;
+  font-weight: 300;
 }
 
 .font-medium {
-  font-family: Geomanist-Medium;
+  font-weight: 400;
 }
 
 .font-bold {
-  font-family: Geomanist-Bold;
+  font-weight: 700;
 }
 
 #p_wrap {
@@ -115,6 +95,10 @@
   margin: 0 !important;
   -webkit-transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
   transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.padding-b10 {
+  padding-bottom: 10px;
 }
 
 a:hover {

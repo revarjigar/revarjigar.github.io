@@ -6,8 +6,14 @@ class Page1 extends Component {
   render() {
     return (
       <div className="page-1">
-        <h1 className="font-medium page-1-header">JIGAR REVAR</h1>
-        <p className="page-1-sub-header">FRONT END DEVELOPER</p>
+        <h1 className="font-bold page-1-header">JIGAR REVAR</h1>
+        <p className="font-medium page-1-sub-header">FRONT END DEVELOPER</p>
+        <p className="font-medium page-1-sub-header margin-none">
+          I am a software developer who enjoys creating novel interactive experiences. My interests include: real-time interaction, application programming, analytics, and enhanced user interaction.
+        </p>
+        <p className="font-medium page-1-sub-header padding-b10">
+          I am from Mumbai. I studied Computer Science at the University of Massachusetts - Boston, and Bachelor of Engineering at University of Mumbai.
+        </p>
         <div className="page-1-image-container">
           <div className="deco-left"/>
           <div className="page-1-image"/>

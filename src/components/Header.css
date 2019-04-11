@@ -12,6 +12,7 @@ body {
     background-image: url("../static/assets/jr-logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    filter: brightness(10.25);
 }
 
 .navbar {
