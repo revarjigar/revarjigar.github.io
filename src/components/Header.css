@@ -18,7 +18,7 @@ body {
 .navbar {
     overflow: hidden;
     color: #ffffff;
-    background: #FA4D42;
+    background: #00b8d4;
     position: fixed;
     top: 0;
     width: 100%;
@@ -73,7 +73,7 @@ body {
 .hamburger-container {
     overflow-y: auto;
     display: flex;
-    background: #FA4D42;
+    background: #00b8d4;
     color: white;
     justify-content: center;
     flex-direction: column;

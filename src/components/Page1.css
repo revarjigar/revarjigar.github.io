@@ -1,6 +1,6 @@
 .page-1 {
     color: #ffffff;
-    background: #FA4D42;
+    background: #00b8d4;
     overflow: hidden;
     padding: 0 10px;
 }
@@ -37,6 +37,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
+    filter: blur(6px);
 }
 
 .deco-right {
@@ -52,6 +53,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
+    filter: blur(6px);
 }
 
 .page-1-image-container {
