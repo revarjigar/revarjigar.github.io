@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e3542ac-01a4-44c1-9136-54338640998c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Faq.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Page1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Page2.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Page2.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,8 +19,8 @@
       <file leaf-file-name="Page1.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/Page1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="249">
+              <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -35,8 +29,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>const {style, onClick} = props;</find>
-      <find>style</find>
       <find>PrevArrow</find>
       <find>key-fea</find>
       <find>.faqs-header</find>
@@ -59,12 +51,14 @@
       <find>'Karla', sans-serif</find>
       <find>font-</find>
       <find>font-family</find>
-      <find>.page-1-sub-header</find>
       <find>Source Sans Pro</find>
       <find>margin</find>
       <find>padding</find>
       <find>end-header</find>
       <find>logo</find>
+      <find>FA4D42</find>
+      <find>.page-1-sub-header</find>
+      <find>page-1-sub-header</find>
     </findStrings>
     <replaceStrings>
       <replace>../static/</replace>
@@ -216,15 +210,16 @@
       <workItem from="1554432955867" duration="5340000" />
       <workItem from="1554692601243" duration="2056000" />
       <workItem from="1554896656901" duration="3170000" />
-      <workItem from="1555321592861" duration="240000" />
+      <workItem from="1555321592861" duration="480000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26296000" />
+    <option name="totallyTimeSpent" value="26536000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="51" y="23" width="1389" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -232,10 +227,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.17692308" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.17692308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -503,8 +498,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Page1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="249">
+          <caret line="71" column="19" selection-start-line="71" selection-start-column="19" selection-end-line="71" selection-end-column="19" />
         </state>
       </provider>
     </entry>
