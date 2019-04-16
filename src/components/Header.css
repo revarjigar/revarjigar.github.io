@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+}
+
+.header-logo {
+    width: 70px;
+    height: auto;
+    top: 0;
+    bottom: 0;
+    margin: 10px;
+    display: block;
+    background-image: url("../static/assets/jr-logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    filter: brightness(10.25);
+}
+
+.navbar {
+    overflow: hidden;
+    color: #ffffff;
+    background: #00b8d4;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.header-nav {
+    height: 85px;
+    line-height: 85px;
+    margin-right: 50px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger-logo {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../static/assets/hambugerWhite@3x.png");
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hamburger-logo-close {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../static/assets/close@3x.png");
+    cursor: pointer;
+}
+
+.hamburger-container {
+    overflow-y: auto;
+    display: flex;
+    background: #00b8d4;
+    color: white;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 998;
+    user-select: none;
+    -webkit-transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    transition: all 600ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
+}
+
+.additional-margin {
+    margin-top: 80px;
+}
+
+.hamburger-container a {
+    margin: 30px auto;
+    font-size: 25px;
+    display: block;
+}
+
+.hamburger-container a:first-child {
+    margin-top: 110px;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .header-logo {
+        height: 46.75px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        margin: 0 5px;
+    }
+
+    .header-nav {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-height: 500px) {
+    .hamburger-container {
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar a {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+        margin: 30px;
+    }
+
+    .navbar {
+        height: 80px;
+    }
+
+    .header-logo {
+        width: 60px;
+        height: unset;
+        top: 0;
+        bottom: 0;
+    }
+
+}
