@@ -37,7 +37,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    filter: blur(6px);
+    filter: blur(6px) brightness(2);
 }
 
 .deco-right {
@@ -53,7 +53,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
-    filter: blur(6px);
+    filter: blur(6px) brightness(2);
 }
 
 .page-1-image-container {
