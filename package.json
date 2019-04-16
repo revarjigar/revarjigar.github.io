@@ -2,7 +2,7 @@
   "name": "my-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://revarjigar.github.io/my-web",
+  "homepage": "https://revarjigar.github.io/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "jquery": "^3.3.1",
